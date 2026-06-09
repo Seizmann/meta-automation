@@ -1,0 +1,22 @@
+# Rust Backend ignores
+backend/target/
+backend/.env
+backend/mappings.json
+
+# Node Frontend ignores
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+!backend/.env.example
+
+# General ignores
+.DS_Store
+*.log
+cloudflared
+
+/hello-coder
+/AGENT.md
+/meta_automation_rules.json
